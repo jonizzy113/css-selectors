@@ -1,0 +1,18 @@
+#intro {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+
+.title{
+    font-size: 1.85em;
+    line-height: 1.2em;
+}
+
+/*
+  This will select only a section that directly follows another section
+*/
+section ~ section {
+    margin: 20px 0 10px 0;
+    background-color:  brown;
+  }
+  
